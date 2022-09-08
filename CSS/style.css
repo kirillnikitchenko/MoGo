@@ -246,6 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*about*/
 .about {
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -292,4 +293,10 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 2;
     transform: translate3d(0, -50%, 0);
     transition: opasity 0.2s linear;
+}
+
+/*statistic*/
+.statistic {
+    background-color: #95e1d3;
+    
 }
