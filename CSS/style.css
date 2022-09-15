@@ -217,6 +217,14 @@ hr {
   padding: 80px 0;
 }
 
+.section--devises {
+    padding-bottom: 0;
+    background: url(../Images/devaises-bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
 .section_header {
     width: 100%;
     max-width: 950px;
@@ -371,8 +379,25 @@ hr {
     font-family: 'Roboto', sans-serif;
 }
 
+/*devises*/
+.devises{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
 
+.devises_item{
+     display: block;
+}
 
+.devises_item--iphone {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    z-index: 1;
+
+}
 
 
 
